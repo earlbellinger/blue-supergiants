@@ -1,0 +1,72 @@
+&model
+    model_type = 'EVOL'
+    file = '../profile103.data.GYRE'
+    file_format = 'MESA'
+/
+
+&constants
+/
+
+
+&mode
+    l=0
+    tag = 'radial'
+/
+&mode
+    l=1
+    tag = 'dipole'
+/
+
+
+&osc
+    outer_bound = 'JCD'
+    variables_set = 'JCD'
+/
+
+&num
+    diff_scheme = 'MAGNUS_GL2'
+    !ad_search = 'BRACKET'
+/
+
+&scan
+    grid_type = 'LINEAR'
+    freq_max_units = 'UHZ'
+    freq_max = 126
+    freq_min_units = 'UHZ'
+    freq_min = 5
+    n_freq = 100
+    tag_list = 'radial'
+/
+
+&scan
+    grid_type = 'INVERSE'
+    freq_units = 'UHZ' ! 'GRAVITY_DELTA'
+    freq_min = 2 ! 0.01
+    freq_max = 126 !2000 !30 
+    n_freq = 10000
+    tag_list = 'dipole'
+/
+
+
+&grid
+    w_ctr = 10
+    w_osc = 20
+    w_exp = 2
+/
+
+
+&rot
+/
+
+&ad_output
+    summary_file = 'profile103-freqs.dat'
+    summary_file_format = 'TXT'
+    summary_item_list = 'l,n_pg,n_p,n_g,freq,E_norm'
+    freq_units = 'UHZ'
+    
+/
+
+&nad_output
+/
+
+

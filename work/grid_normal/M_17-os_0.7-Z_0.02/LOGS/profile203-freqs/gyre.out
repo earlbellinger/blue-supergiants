@@ -1,0 +1,287 @@
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+At line 275 of file gyre_evol_model.f90
+Fortran runtime warning: An array temporary was created
+gyre [7.0]
+----------
+
+Compiler         : GCC version 10.2.0
+Compiler options : -I /afs/mpa/data/earl/mesa/mesasdk/include -I /afs/mpa/data/earl/mesa/mesasdk/math-slots/crmath/include -mtune=generic -march=x86-64 -ggdb -Wall -Wno-unused-dummy-argument -Wno-maybe-uninitialized -std=f2008 -ffpe-summary=none -finit-real=snan -fbacktrace -fmax-errors=25 -ffpe-trap=invalid,overflow,zero -fcheck=all -finline-limit=0 -fopenmp -ffp-contract=off -fpre-include=/usr/include/finclude/math-vector-fortran.h
+OpenMP Threads   : 12
+Input filename   : gyre.in
+
+Model Init
+----------
+
+Reading from MESA file
+   File name ../profile203.data.GYRE
+   File version 1.01
+   Read 1602 points
+   No need to add central point
+
+Mode Search
+-----------
+
+Mode parameters
+   l : 0
+   m : 0
+
+Building frequency grid (REAL axis)
+   added scan interval :  0.8571E+01 ->  0.2160E+03 (100 points, LINEAR)
+
+Building spatial grid
+   Scaffold grid from model
+   Refined 493 subinterval(s) in iteration 1
+   Refined 692 subinterval(s) in iteration 2
+   Refined 326 subinterval(s) in iteration 3
+   Refined 0 subinterval(s) in iteration 4
+   Final grid has 1 segment(s) and 3113 point(s):
+      Segment 1 : x range 0.0000 -> 1.0414 (1 -> 3113)
+
+Starting search (adiabatic)
+
+Evaluating discriminant
+    0.8570801361011233E+01  -0.8669861373854125        5
+    0.1066588613814731E+02  -0.5378841071651315        7
+    0.1276097091528339E+02  -0.5695542716580004        6
+    0.1485605569241947E+02   0.6088356549448020        8
+    0.1695114046955555E+02   0.9139780856703785        8
+    0.1904622524669163E+02  -0.9807612360779684        7
+    0.2114131002382770E+02  -0.6667621349105753       10
+    0.2323639480096379E+02  -0.5231160117262608        7
+    0.2533147957809986E+02   0.6352850492335266       11
+    0.2742656435523594E+02   0.5425356613841597       10
+    0.2952164913237203E+02  -0.9051572087524232       11
+    0.3161673390950810E+02  -0.8235211030741311       11
+    0.3371181868664418E+02   0.5501975102664111       12
+    0.3580690346378026E+02   0.8668773935458427       12
+    0.3790198824091634E+02  -0.5410455521675988       12
+    0.3999707301805242E+02  -0.7481586722181747       13
+    0.4209215779518850E+02   0.6137368298643492       11
+    0.4418724257232457E+02   0.5726218227909434       14
+    0.4628232734946066E+02   0.5429464490236080       11
+    0.4837741212659672E+02  -0.7979041874323579       14
+    0.5047249690373281E+02  -0.6565936625143234       13
+    0.5256758168086889E+02   0.5111683533337660       15
+    0.5466266645800498E+02   0.7351153113372044       14
+    0.5675775123514105E+02  -0.6054355385235666       15
+    0.5885283601227712E+02  -0.6504140940905943       15
+    0.6094792078941320E+02   0.6512472231563889       15
+    0.6304300556654928E+02   0.5077698800415122       16
+    0.6513809034368536E+02  -0.6119935332215131       15
+    0.6723317512082144E+02  -0.7314239351827472       16
+    0.6932825989795752E+02   0.9014208214882256       14
+    0.7142334467509360E+02   0.9889120679482682       16
+    0.7351842945222968E+02  -0.5219675042775472       13
+    0.7561351422936575E+02  -0.6313701410876275       17
+    0.7770859900650183E+02  -0.7821900190287953       14
+    0.7980368378363792E+02   0.7680017494616362       17
+    0.8189876856077399E+02   0.5696734076457903       16
+    0.8399385333791008E+02  -0.8898875150348617       17
+    0.8608893811504615E+02  -0.5331815234875346       17
+    0.8818402289218223E+02   0.9772239201229128       17
+    0.9027910766931829E+02   0.8448742453369427       17
+    0.9237419244645439E+02  -0.5039299356863910       18
+    0.9446927722359045E+02  -0.6116509810640057       18
+    0.9656436200072653E+02   0.9643556857515786       17
+    0.9865944677786263E+02   0.8277336656547993       18
+    0.1007545315549987E+03  -0.8219743261258248       17
+    0.1028496163321348E+03  -0.5307718297725966       19
+    0.1049447011092709E+03   0.5592160442911775       17
+    0.1070397858864069E+03   0.6508087803041280       19
+    0.1091348706635430E+03  -0.5967547954170743       15
+    0.1112299554406791E+03  -0.7685373093846324       19
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+    0.1133250402178152E+03  -0.8292414159289425       16
+    0.1154201249949513E+03   0.8734565756061021       19
+    0.1175152097720873E+03   0.5721187162622566       18
+    0.1196102945492234E+03  -0.9559117350818374       19
+    0.1217053793263595E+03  -0.5104400978704547       19
+    0.1238004641034956E+03   0.5021249629532820       20
+    0.1258955488806317E+03   0.7718375892592904       19
+    0.1279906336577677E+03  -0.5030681754219285       20
+    0.1300857184349038E+03  -0.5320626400332032       20
+    0.1321808032120399E+03   0.9443987609004794       19
+    0.1342758879891760E+03   0.6921082630266417       20
+    0.1363709727663120E+03  -0.8156386675236766       19
+    0.1384660575434481E+03  -0.8584550950146653       20
+    0.1405611423205842E+03   0.6083033408680130       19
+    0.1426562270977203E+03   0.5108623306044232       21
+    0.1447513118748564E+03  -0.6226040098152429       18
+    0.1468463966519924E+03  -0.5857949840733585       21
+    0.1489414814291285E+03  -0.6381089751785496       16
+    0.1510365662062646E+03   0.6520607042996660       21
+    0.1531316509834007E+03   0.5631021880269192       19
+    0.1552267357605367E+03  -0.6993969502825621       21
+    0.1573218205376728E+03  -0.5663540838550183       20
+    0.1594169053148089E+03   0.7259404307932211       21
+    0.1615119900919450E+03   0.8902807056975196       20
+    0.1636070748690811E+03  -0.7232306959062423       21
+    0.1657021596462172E+03  -0.6214437422866476       21
+    0.1677972444233532E+03   0.6868499661314735       21
+    0.1698923292004893E+03   0.8061809256174896       21
+    0.1719874139776254E+03  -0.6107528062548612       21
+    0.1740824987547614E+03  -0.9962510278648811       21
+    0.1761775835318976E+03   0.9858560370336960       20
+    0.1782726683090336E+03   0.5896842750694151       22
+    0.1803677530861697E+03  -0.6577294895906277       20
+    0.1824628378633058E+03  -0.6740862601343440       22
+    0.1845579226404418E+03   0.9486427335492856       18
+    0.1866530074175780E+03   0.7452661632950841       22
+    0.1887480921947140E+03   0.5417571188855977       19
+    0.1908431769718501E+03  -0.7991517893734564       22
+    0.1929382617489862E+03  -0.8577869607567812       20
+    0.1950333465261223E+03   0.8276820879839959       22
+    0.1971284313032583E+03   0.7605395991476871       21
+    0.1992235160803944E+03  -0.8304825992147838       22
+    0.2013186008575305E+03  -0.5580670848106934       22
+    0.2034136856346665E+03   0.7996480012324992       22
+    0.2055087704118027E+03   0.7438701488274935       22
+    0.2076038551889387E+03  -0.7297815428322344       22
+    0.2096989399660748E+03  -0.9297452069080802       22
+    0.2117940247432109E+03   0.6215809743154505       22
+    0.2138891095203470E+03   0.5551080547289099       23
+    0.2159841942974831E+03  -0.9435717426659449       21
+  Time elapsed :     0.322 s
+
+Root Solving
+   l    m    n_pg    n_p    n_g       Re(omega)       Im(omega)        chi n_iter
+   0    0      10     10      0  0.13891377E+02  0.00000000E+00 0.2003E-13     12
+   0    0      13     13      0  0.17871760E+02  0.00000000E+00 0.4001E-14     11
+   0    0      18     18      0  0.24549357E+02  0.00000000E+00 0.1404E-13     11
+   0    0      21     21      0  0.28632537E+02  0.00000000E+00 0.4900E-13     11
+   0    0      24     24      0  0.32682508E+02  0.00000000E+00 0.4104E-13     10
+   0    0      27     27      0  0.36730448E+02  0.00000000E+00 0.3513E-13     10
+   0    0      30     30      0  0.40803372E+02  0.00000000E+00 0.6580E-13     12
+   0    0      35     35      0  0.47598829E+02  0.00000000E+00 0.1301E-14     10
+   0    0      38     38      0  0.51684682E+02  0.00000000E+00 0.3420E-13      9
+   0    0      41     41      0  0.55776921E+02  0.00000000E+00 0.3037E-13      9
+   0    0      44     44      0  0.59872238E+02  0.00000000E+00 0.4774E-13      8
+   0    0      47     47      0  0.63971740E+02  0.00000000E+00 0.6330E-14      8
+   0    0      50     50      0  0.68073561E+02  0.00000000E+00 0.4069E-14      9
+   0    0      53     53      0  0.72176392E+02  0.00000000E+00 0.7833E-13     10
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
+At line 336 of file gyre_rad_bvp.f90
+Fortran runtime warning: An array temporary was created
