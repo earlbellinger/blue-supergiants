@@ -1,0 +1,61 @@
+&star_job
+    relax_Y = .true.
+    relax_Z = .true.
+    new_Y = 0.28
+    new_Z = 0.02
+/ ! end of star_job namelist
+
+
+&eos
+/ ! end of eos namelist
+
+
+&kap
+  use_Type2_opacities = .true.
+    Zbase = 0.02
+/ ! end of kap namelist
+
+
+&controls
+    initial_mass = 12
+    !initial_z = 0.02
+
+    xa_central_lower_limit_species(1) = 'he4'
+    xa_central_lower_limit(1) = 1d-1
+
+    use_ledoux_criterion = .true.
+    alpha_semiconvection = 100
+    
+    thermohaline_coeff = 2
+
+    overshoot_scheme(:) = 'step' ! ``exponential``, ``step``, ``other``
+    overshoot_zone_type(1) = 'burn_H' !  ``burn_H``, ``burn_He``, ``burn_Z``, ``nonburn``, ``any``
+    !overshoot_zone_type(2) = 'burn_He'
+    overshoot_zone_loc(:) = 'core' ! ``core``, ``shell``, ``any``
+    overshoot_bdy_loc(:) = 'any'
+    overshoot_f = 0.11
+    overshoot_f0 = 0.011
+
+    set_min_D_mix = .true.
+    min_D_mix = 20
+
+    hot_wind_scheme = 'Vink'
+    Vink_scaling_factor = 1
+
+    energy_eqn_option = 'dedt'
+    use_gold_tolerances = .true.
+
+    write_pulse_data_with_profile = .true.
+    add_atmosphere_to_pulse_data = .true.
+    pulse_data_format = 'GYRE'
+    history_interval = 1
+    profile_interval = 1
+    photo_interval = 9999
+
+    log_directory = 'LOGS'
+
+    max_num_profile_models = 10000
+    delta_Pg_mode_freq = 1d-99
+
+/ ! end of controls namelist
+

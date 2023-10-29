@@ -1,0 +1,417 @@
+ reading user weak rate file /afs/mpa/temp/earl/mesa/mesa/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+ version_number r23.05.1
+
+
+ The terminal output contains the following information
+
+      'step' is the number of steps since the start of the run,
+      'lg_dt' is log10 timestep in years,
+      'age_yr' is the simulated years since the start run,
+      'lg_Tcntr' is log10 center temperature (K),
+      'lg_Dcntr' is log10 center density (g/cm^3),
+      'lg_Tmax' is log10 max temperature (K),
+      'Teff' is the surface temperature (K),
+      'lg_R' is log10 surface radius (Rsun),
+      'lg_L' is log10 surface luminosity (Lsun),
+      'lg_LH' is log10 total PP and CNO hydrogen burning power (Lsun),
+      'lg_L3a' is log10 total triple-alpha helium burning power (Lsun),
+      'lg_gsurf' is log10 surface gravity,
+      'lg_LNuc' is log10 nuclear power (Lsun),
+      'lg_LNeu' is log10 total neutrino power (Lsun),
+      'lg_Lphoto' is log10 total photodisintegration (Lsun),
+      'Mass' is the total stellar baryonic mass (Msun),
+      'lg_Mdot' is log10 magnitude of rate of change of mass (Msun/year),
+      'lg_Dsurf' is log10 surface density (g/cm^3),
+      'H_env' is the amount of mass where H is dominant,
+      'He_core' is the largest mass where He is dominant.
+      'CO_core' is the largest mass where CO is dominant.
+      'H_cntr' is the center H1 mass fraction,
+      'He_cntr' is the center He4 mass fraction,
+      'C_cntr' is the center C12 mass fraction,
+      'N_cntr' is the center N14 mass fraction,
+      'O_cntr' is the center O16 mass fraction,
+      'Ne_cntr' is the center Ne20 mass fraction,
+      'gam_cntr' is the center plasma interaction parameter,
+      'eta_cntr' is the center electron degeneracy parameter,
+      'zones' is the number of zones in the current model,
+      'iters' is the number of solver iterations for the current step,
+      'retry' is the number of step retries required during the run,
+      'dt_limit' is an indication of what limited the timestep.
+
+ All this and more are saved in the LOGS directory during the run.
+                             set_initial_number_retries           0
+
+                              relax_initial_composition
+ relax_composition: num_steps_to_use         100
+                       avg remaining difference, lambda    4.4523339334787054D-02    0.0000000000000000D+00
+                       avg remaining difference, lambda    3.6371752161079414D-02    1.0101010101010102D-02
+                       avg remaining difference, lambda    2.6797574812519639D-02    2.0202020202020204D-02
+                       avg remaining difference, lambda    2.0237679930290173D-02    3.0303030303030304D-02
+                       avg remaining difference, lambda    1.9992808865661935D-02    4.0404040404040407D-02
+                       avg remaining difference, lambda    1.9227879739584477D-02    5.0505050505050504D-02
+                       avg remaining difference, lambda    1.8462906841252440D-02    6.0606060606060608D-02
+                       avg remaining difference, lambda    1.7512352948440391D-02    7.0707070707070704D-02
+                       avg remaining difference, lambda    1.6486197718839642D-02    8.0808080808080815D-02
+                       avg remaining difference, lambda    1.5546001025663002D-02    9.0909090909090912D-02
+                       avg remaining difference, lambda    1.4340363651200188D-02    1.0101010101010101D-01
+                       avg remaining difference, lambda    1.3174460344921929D-02    1.1111111111111110D-01
+                       avg remaining difference, lambda    1.1672209952047223D-02    1.2121212121212122D-01
+                       avg remaining difference, lambda    1.1545076321842004D-02    1.3131313131313133D-01
+                       avg remaining difference, lambda    1.0692162928844723D-02    1.4141414141414141D-01
+                       avg remaining difference, lambda    9.4677352574284238D-03    1.5151515151515152D-01
+                       avg remaining difference, lambda    8.5176361558805553D-03    1.6161616161616163D-01
+                       avg remaining difference, lambda    7.4134998319733006D-03    1.7171717171717171D-01
+                       avg remaining difference, lambda    6.1397721959640826D-03    1.8181818181818182D-01
+                       avg remaining difference, lambda    5.0053956234000314D-03    1.9191919191919191D-01
+                       avg remaining difference, lambda    4.0762957883461980D-03    2.0202020202020202D-01
+                       avg remaining difference, lambda    3.2417820447390952D-03    2.1212121212121213D-01
+                       avg remaining difference, lambda    2.5323724649812702D-03    2.2222222222222221D-01
+                       avg remaining difference, lambda    2.0020696764127392D-03    2.3232323232323232D-01
+                       avg remaining difference, lambda    1.5435477724322409D-03    2.4242424242424243D-01
+                       avg remaining difference, lambda    1.1583248303759024D-03    2.5252525252525254D-01
+                       avg remaining difference, lambda    8.6832378110194208D-04    2.6262626262626265D-01
+                       avg remaining difference, lambda    6.3499150002950262D-04    2.7272727272727271D-01
+                       avg remaining difference, lambda    4.5622286764721698D-04    2.8282828282828282D-01
+                       avg remaining difference, lambda    3.2555256011785824D-04    2.9292929292929293D-01
+                       avg remaining difference, lambda    2.2998842841125773D-04    3.0303030303030304D-01
+                       avg remaining difference, lambda    1.5797184981783483D-04    3.1313131313131315D-01
+                       avg remaining difference, lambda    1.0742937897324606D-04    3.2323232323232326D-01
+                       avg remaining difference, lambda    7.1619585982170020D-05    3.3333333333333331D-01
+                       avg remaining difference, lambda    4.7022960493337905D-05    3.4343434343434343D-01
+                       avg remaining difference, lambda    3.0398681531049680D-05    3.5353535353535354D-01
+                       avg remaining difference, lambda    1.9344615519757179D-05    3.6363636363636365D-01
+                       avg remaining difference, lambda    1.2114809719451177D-05    3.7373737373737376D-01
+                       avg remaining difference, lambda    7.4646807362265833D-06    3.8383838383838381D-01
+                       avg remaining difference, lambda    4.5272919398498963D-06    3.9393939393939392D-01
+                       avg remaining difference, lambda    2.6980830752688671D-06    4.0404040404040403D-01
+                       avg remaining difference, lambda    1.5806951350022044D-06    4.1414141414141414D-01
+                       avg remaining difference, lambda    9.1009719894401248D-07    4.2424242424242425D-01
+                       avg remaining difference, lambda    5.1480245596978204D-07    4.3434343434343436D-01
+                       avg remaining difference, lambda    2.8600136443091151D-07    4.4444444444444442D-01
+                       avg remaining difference, lambda    1.5600074423756436D-07    4.5454545454545453D-01
+                       avg remaining difference, lambda    8.3515549946141953D-08    4.6464646464646464D-01
+                       avg remaining difference, lambda    4.3866753513901436D-08    4.7474747474747475D-01
+                       avg remaining difference, lambda    2.2598024533415140D-08    4.8484848484848486D-01
+                       avg remaining difference, lambda    1.1413143705656055D-08    4.9494949494949497D-01
+                       avg remaining difference, lambda    5.6489297129523677D-09    5.0505050505050508D-01
+                       avg remaining difference, lambda    2.7388750106333551D-09    5.1515151515151514D-01
+                       avg remaining difference, lambda    1.3002739968726246D-09    5.2525252525252530D-01
+                       avg remaining difference, lambda    6.0416771307981865D-10    5.3535353535353536D-01
+                       avg remaining difference, lambda    2.7462168714620808D-10    5.4545454545454541D-01
+                       avg remaining difference, lambda    1.2205408731539846D-10    5.5555555555555558D-01
+                       avg remaining difference, lambda    5.3013392376039511D-11    5.6565656565656564D-01
+                       avg remaining difference, lambda    2.2490530622109588D-11    5.7575757575757580D-01
+                       avg remaining difference, lambda    9.3142581105133691D-12    5.8585858585858586D-01
+                       avg remaining difference, lambda    3.7633413524551851D-12    5.9595959595959591D-01
+                       avg remaining difference, lambda    1.4825319444514464D-12    6.0606060606060608D-01
+                       avg remaining difference, lambda    5.6905774699660596D-13    6.1616161616161613D-01
+                       avg remaining difference, lambda    2.1268167353519843D-13    6.2626262626262630D-01
+                       avg remaining difference, lambda    7.7340871437112387D-14    6.3636363636363635D-01
+                       avg remaining difference, lambda    2.7348762723002414D-14    6.4646464646464652D-01
+                       avg remaining difference, lambda    9.3930850985099599D-15    6.5656565656565657D-01
+                       avg remaining difference, lambda    3.1329271988017107D-15    6.6666666666666663D-01
+                       avg remaining difference, lambda    1.0097238354672227D-15    6.7676767676767680D-01
+                       avg remaining difference, lambda    3.1889432890793508D-16    6.8686868686868685D-01
+                       avg remaining difference, lambda    9.4746898089452587D-17    6.9696969696969702D-01
+                       avg remaining difference, lambda    2.8406092305886097D-17    7.0707070707070707D-01
+                       avg remaining difference, lambda    7.8129206544326257D-18    7.1717171717171713D-01
+                       avg remaining difference, lambda    4.8959889244089961D-18    7.2727272727272729D-01
+                       avg remaining difference, lambda    1.3703703392382013D-17    7.3737373737373735D-01
+                       avg remaining difference, lambda    1.3444362578779075D-17    7.4747474747474751D-01
+                       avg remaining difference, lambda    5.0450498832291116D-19    7.5757575757575757D-01
+                       avg remaining difference, lambda    3.9662323869882031D-19    7.6767676767676762D-01
+                       avg remaining difference, lambda    5.4270494570334732D-19    7.7777777777777779D-01
+                       avg remaining difference, lambda    3.5584730692177435D-18    7.8787878787878785D-01
+                       avg remaining difference, lambda    3.4875001336738903D-18    7.9797979797979801D-01
+                       avg remaining difference, lambda    3.0590753261315249D-19    8.0808080808080807D-01
+                       avg remaining difference, lambda    3.3532653796927347D-19    8.1818181818181823D-01
+                       avg remaining difference, lambda    1.6393894833912611D-19    8.2828282828282829D-01
+                       avg remaining difference, lambda    3.3882349961435915D-18    8.3838383838383834D-01
+                       avg remaining difference, lambda    2.9035300695545010D-19    8.4848484848484851D-01
+                       avg remaining difference, lambda    3.4783067999872024D-19    8.5858585858585856D-01
+                       avg remaining difference, lambda    2.7087317636974490D-19    8.6868686868686873D-01
+                       avg remaining difference, lambda    3.4446186852197320D-19    8.7878787878787878D-01
+                       avg remaining difference, lambda    3.3360628343908663D-18    8.8888888888888884D-01
+                       avg remaining difference, lambda    1.4038411840332398D-19    8.9898989898989901D-01
+                       avg remaining difference, lambda    2.0235779406365227D-19    9.0909090909090906D-01
+                       avg remaining difference, lambda    9.8517049624657073D-18    9.1919191919191923D-01
+                       avg remaining difference, lambda    3.2003826083527158D-18    9.2929292929292928D-01
+                       avg remaining difference, lambda    7.5982951422196551D-20    9.3939393939393945D-01
+                       avg remaining difference, lambda    1.3999306122134236D-19    9.4949494949494950D-01
+                       avg remaining difference, lambda    4.1155290608746349D-20    9.5959595959595956D-01
+                       avg remaining difference, lambda    2.2494984755872439D-19    9.6969696969696972D-01
+                       avg remaining difference, lambda    4.5110687163534224D-20    9.7979797979797978D-01
+                       avg remaining difference, lambda    6.3311848605857247D-20    9.8989898989898994D-01
+                       avg remaining difference, lambda    0.0000000000000000D+00    1.0000000000000000D+00
+
+ finished doing relax composition
+
+ net name basic.net
+ kap_option gs98
+ kap_CO_option gs98_co
+ kap_lowT_option lowT_fa05_gs98
+                                        OMP_NUM_THREADS           8
+
+
+save LOGS/profile1.data LOGS/profile1.data.GYRE for model 1
+save LOGS/profile2.data LOGS/profile2.data.GYRE for model 2
+save LOGS/profile3.data LOGS/profile3.data.GYRE for model 3
+save LOGS/profile4.data LOGS/profile4.data.GYRE for model 4
+save LOGS/profile5.data LOGS/profile5.data.GYRE for model 5
+save LOGS/profile6.data LOGS/profile6.data.GYRE for model 6
+save LOGS/profile7.data LOGS/profile7.data.GYRE for model 7
+save LOGS/profile8.data LOGS/profile8.data.GYRE for model 8
+save LOGS/profile9.data LOGS/profile9.data.GYRE for model 9
+save LOGS/profile10.data LOGS/profile10.data.GYRE for model 10
+save LOGS/profile11.data LOGS/profile11.data.GYRE for model 11
+save LOGS/profile12.data LOGS/profile12.data.GYRE for model 12
+save LOGS/profile13.data LOGS/profile13.data.GYRE for model 13
+save LOGS/profile14.data LOGS/profile14.data.GYRE for model 14
+save LOGS/profile15.data LOGS/profile15.data.GYRE for model 15
+save LOGS/profile16.data LOGS/profile16.data.GYRE for model 16
+save LOGS/profile17.data LOGS/profile17.data.GYRE for model 17
+save LOGS/profile18.data LOGS/profile18.data.GYRE for model 18
+save LOGS/profile19.data LOGS/profile19.data.GYRE for model 19
+save LOGS/profile20.data LOGS/profile20.data.GYRE for model 20
+save LOGS/profile21.data LOGS/profile21.data.GYRE for model 21
+save LOGS/profile22.data LOGS/profile22.data.GYRE for model 22
+save LOGS/profile23.data LOGS/profile23.data.GYRE for model 23
+save LOGS/profile24.data LOGS/profile24.data.GYRE for model 24
+save LOGS/profile25.data LOGS/profile25.data.GYRE for model 25
+save LOGS/profile26.data LOGS/profile26.data.GYRE for model 26
+save LOGS/profile27.data LOGS/profile27.data.GYRE for model 27
+save LOGS/profile28.data LOGS/profile28.data.GYRE for model 28
+save LOGS/profile29.data LOGS/profile29.data.GYRE for model 29
+save LOGS/profile30.data LOGS/profile30.data.GYRE for model 30
+save LOGS/profile31.data LOGS/profile31.data.GYRE for model 31
+save LOGS/profile32.data LOGS/profile32.data.GYRE for model 32
+save LOGS/profile33.data LOGS/profile33.data.GYRE for model 33
+save LOGS/profile34.data LOGS/profile34.data.GYRE for model 34
+save LOGS/profile35.data LOGS/profile35.data.GYRE for model 35
+save LOGS/profile36.data LOGS/profile36.data.GYRE for model 36
+save LOGS/profile37.data LOGS/profile37.data.GYRE for model 37
+save LOGS/profile38.data LOGS/profile38.data.GYRE for model 38
+save LOGS/profile39.data LOGS/profile39.data.GYRE for model 39
+save LOGS/profile40.data LOGS/profile40.data.GYRE for model 40
+save LOGS/profile41.data LOGS/profile41.data.GYRE for model 41
+save LOGS/profile42.data LOGS/profile42.data.GYRE for model 42
+save LOGS/profile43.data LOGS/profile43.data.GYRE for model 43
+save LOGS/profile44.data LOGS/profile44.data.GYRE for model 44
+save LOGS/profile45.data LOGS/profile45.data.GYRE for model 45
+save LOGS/profile46.data LOGS/profile46.data.GYRE for model 46
+save LOGS/profile47.data LOGS/profile47.data.GYRE for model 47
+save LOGS/profile48.data LOGS/profile48.data.GYRE for model 48
+save LOGS/profile49.data LOGS/profile49.data.GYRE for model 49
+save LOGS/profile50.data LOGS/profile50.data.GYRE for model 50
+save LOGS/profile51.data LOGS/profile51.data.GYRE for model 51
+save LOGS/profile52.data LOGS/profile52.data.GYRE for model 52
+save LOGS/profile53.data LOGS/profile53.data.GYRE for model 53
+save LOGS/profile54.data LOGS/profile54.data.GYRE for model 54
+save LOGS/profile55.data LOGS/profile55.data.GYRE for model 55
+save LOGS/profile56.data LOGS/profile56.data.GYRE for model 56
+save LOGS/profile57.data LOGS/profile57.data.GYRE for model 57
+save LOGS/profile58.data LOGS/profile58.data.GYRE for model 58
+save LOGS/profile59.data LOGS/profile59.data.GYRE for model 59
+save LOGS/profile60.data LOGS/profile60.data.GYRE for model 60
+save LOGS/profile61.data LOGS/profile61.data.GYRE for model 61
+save LOGS/profile62.data LOGS/profile62.data.GYRE for model 62
+save LOGS/profile63.data LOGS/profile63.data.GYRE for model 63
+save LOGS/profile64.data LOGS/profile64.data.GYRE for model 64
+save LOGS/profile65.data LOGS/profile65.data.GYRE for model 65
+save LOGS/profile66.data LOGS/profile66.data.GYRE for model 66
+save LOGS/profile67.data LOGS/profile67.data.GYRE for model 67
+save LOGS/profile68.data LOGS/profile68.data.GYRE for model 68
+save LOGS/profile69.data LOGS/profile69.data.GYRE for model 69
+save LOGS/profile70.data LOGS/profile70.data.GYRE for model 70
+save LOGS/profile71.data LOGS/profile71.data.GYRE for model 71
+save LOGS/profile72.data LOGS/profile72.data.GYRE for model 72
+save LOGS/profile73.data LOGS/profile73.data.GYRE for model 73
+save LOGS/profile74.data LOGS/profile74.data.GYRE for model 74
+save LOGS/profile75.data LOGS/profile75.data.GYRE for model 75
+save LOGS/profile76.data LOGS/profile76.data.GYRE for model 76
+save LOGS/profile77.data LOGS/profile77.data.GYRE for model 77
+save LOGS/profile78.data LOGS/profile78.data.GYRE for model 78
+save LOGS/profile79.data LOGS/profile79.data.GYRE for model 79
+save LOGS/profile80.data LOGS/profile80.data.GYRE for model 80
+save LOGS/profile81.data LOGS/profile81.data.GYRE for model 81
+save LOGS/profile82.data LOGS/profile82.data.GYRE for model 82
+save LOGS/profile83.data LOGS/profile83.data.GYRE for model 83
+save LOGS/profile84.data LOGS/profile84.data.GYRE for model 84
+save LOGS/profile85.data LOGS/profile85.data.GYRE for model 85
+save LOGS/profile86.data LOGS/profile86.data.GYRE for model 86
+save LOGS/profile87.data LOGS/profile87.data.GYRE for model 87
+save LOGS/profile88.data LOGS/profile88.data.GYRE for model 88
+save LOGS/profile89.data LOGS/profile89.data.GYRE for model 89
+save LOGS/profile90.data LOGS/profile90.data.GYRE for model 90
+save LOGS/profile91.data LOGS/profile91.data.GYRE for model 91
+save LOGS/profile92.data LOGS/profile92.data.GYRE for model 92
+save LOGS/profile93.data LOGS/profile93.data.GYRE for model 93
+save LOGS/profile94.data LOGS/profile94.data.GYRE for model 94
+save LOGS/profile95.data LOGS/profile95.data.GYRE for model 95
+save LOGS/profile96.data LOGS/profile96.data.GYRE for model 96
+save LOGS/profile97.data LOGS/profile97.data.GYRE for model 97
+save LOGS/profile98.data LOGS/profile98.data.GYRE for model 98
+save LOGS/profile99.data LOGS/profile99.data.GYRE for model 99
+save LOGS/profile100.data LOGS/profile100.data.GYRE for model 100
+save LOGS/profile101.data LOGS/profile101.data.GYRE for model 101
+save LOGS/profile102.data LOGS/profile102.data.GYRE for model 102
+save LOGS/profile103.data LOGS/profile103.data.GYRE for model 103
+save LOGS/profile104.data LOGS/profile104.data.GYRE for model 104
+save LOGS/profile105.data LOGS/profile105.data.GYRE for model 105
+save LOGS/profile106.data LOGS/profile106.data.GYRE for model 106
+save LOGS/profile107.data LOGS/profile107.data.GYRE for model 107
+save LOGS/profile108.data LOGS/profile108.data.GYRE for model 108
+save LOGS/profile109.data LOGS/profile109.data.GYRE for model 109
+save LOGS/profile110.data LOGS/profile110.data.GYRE for model 110
+save LOGS/profile111.data LOGS/profile111.data.GYRE for model 111
+save LOGS/profile112.data LOGS/profile112.data.GYRE for model 112
+save LOGS/profile113.data LOGS/profile113.data.GYRE for model 113
+save LOGS/profile114.data LOGS/profile114.data.GYRE for model 114
+save LOGS/profile115.data LOGS/profile115.data.GYRE for model 115
+save LOGS/profile116.data LOGS/profile116.data.GYRE for model 116
+save LOGS/profile117.data LOGS/profile117.data.GYRE for model 117
+save LOGS/profile118.data LOGS/profile118.data.GYRE for model 118
+save LOGS/profile119.data LOGS/profile119.data.GYRE for model 119
+save LOGS/profile120.data LOGS/profile120.data.GYRE for model 120
+save LOGS/profile121.data LOGS/profile121.data.GYRE for model 121
+save LOGS/profile122.data LOGS/profile122.data.GYRE for model 122
+save LOGS/profile123.data LOGS/profile123.data.GYRE for model 123
+save LOGS/profile124.data LOGS/profile124.data.GYRE for model 124
+save LOGS/profile125.data LOGS/profile125.data.GYRE for model 125
+save LOGS/profile126.data LOGS/profile126.data.GYRE for model 126
+save LOGS/profile127.data LOGS/profile127.data.GYRE for model 127
+save LOGS/profile128.data LOGS/profile128.data.GYRE for model 128
+save LOGS/profile129.data LOGS/profile129.data.GYRE for model 129
+save LOGS/profile130.data LOGS/profile130.data.GYRE for model 130
+save LOGS/profile131.data LOGS/profile131.data.GYRE for model 131
+save LOGS/profile132.data LOGS/profile132.data.GYRE for model 132
+save LOGS/profile133.data LOGS/profile133.data.GYRE for model 133
+save LOGS/profile134.data LOGS/profile134.data.GYRE for model 134
+save LOGS/profile135.data LOGS/profile135.data.GYRE for model 135
+save LOGS/profile136.data LOGS/profile136.data.GYRE for model 136
+save LOGS/profile137.data LOGS/profile137.data.GYRE for model 137
+save LOGS/profile138.data LOGS/profile138.data.GYRE for model 138
+save LOGS/profile139.data LOGS/profile139.data.GYRE for model 139
+save LOGS/profile140.data LOGS/profile140.data.GYRE for model 140
+save LOGS/profile141.data LOGS/profile141.data.GYRE for model 141
+save LOGS/profile142.data LOGS/profile142.data.GYRE for model 142
+save LOGS/profile143.data LOGS/profile143.data.GYRE for model 143
+save LOGS/profile144.data LOGS/profile144.data.GYRE for model 144
+save LOGS/profile145.data LOGS/profile145.data.GYRE for model 145
+save LOGS/profile146.data LOGS/profile146.data.GYRE for model 146
+save LOGS/profile147.data LOGS/profile147.data.GYRE for model 147
+save LOGS/profile148.data LOGS/profile148.data.GYRE for model 148
+save LOGS/profile149.data LOGS/profile149.data.GYRE for model 149
+save LOGS/profile150.data LOGS/profile150.data.GYRE for model 150
+save LOGS/profile151.data LOGS/profile151.data.GYRE for model 151
+save LOGS/profile152.data LOGS/profile152.data.GYRE for model 152
+save LOGS/profile153.data LOGS/profile153.data.GYRE for model 153
+save LOGS/profile154.data LOGS/profile154.data.GYRE for model 154
+save LOGS/profile155.data LOGS/profile155.data.GYRE for model 155
+save LOGS/profile156.data LOGS/profile156.data.GYRE for model 156
+save LOGS/profile157.data LOGS/profile157.data.GYRE for model 157
+save LOGS/profile158.data LOGS/profile158.data.GYRE for model 158
+save LOGS/profile159.data LOGS/profile159.data.GYRE for model 159
+save LOGS/profile160.data LOGS/profile160.data.GYRE for model 160
+save LOGS/profile161.data LOGS/profile161.data.GYRE for model 161
+save LOGS/profile162.data LOGS/profile162.data.GYRE for model 162
+save LOGS/profile163.data LOGS/profile163.data.GYRE for model 163
+save LOGS/profile164.data LOGS/profile164.data.GYRE for model 164
+save LOGS/profile165.data LOGS/profile165.data.GYRE for model 165
+save LOGS/profile166.data LOGS/profile166.data.GYRE for model 166
+save LOGS/profile167.data LOGS/profile167.data.GYRE for model 167
+save LOGS/profile168.data LOGS/profile168.data.GYRE for model 168
+save LOGS/profile169.data LOGS/profile169.data.GYRE for model 169
+save LOGS/profile170.data LOGS/profile170.data.GYRE for model 170
+save LOGS/profile171.data LOGS/profile171.data.GYRE for model 171
+save LOGS/profile172.data LOGS/profile172.data.GYRE for model 172
+save LOGS/profile173.data LOGS/profile173.data.GYRE for model 173
+save LOGS/profile174.data LOGS/profile174.data.GYRE for model 174
+save LOGS/profile175.data LOGS/profile175.data.GYRE for model 175
+save LOGS/profile176.data LOGS/profile176.data.GYRE for model 176
+save LOGS/profile177.data LOGS/profile177.data.GYRE for model 177
+save LOGS/profile178.data LOGS/profile178.data.GYRE for model 178
+save LOGS/profile179.data LOGS/profile179.data.GYRE for model 179
+save LOGS/profile180.data LOGS/profile180.data.GYRE for model 180
+save LOGS/profile181.data LOGS/profile181.data.GYRE for model 181
+save LOGS/profile182.data LOGS/profile182.data.GYRE for model 182
+save LOGS/profile183.data LOGS/profile183.data.GYRE for model 183
+save LOGS/profile184.data LOGS/profile184.data.GYRE for model 184
+save LOGS/profile185.data LOGS/profile185.data.GYRE for model 185
+save LOGS/profile186.data LOGS/profile186.data.GYRE for model 186
+save LOGS/profile187.data LOGS/profile187.data.GYRE for model 187
+save LOGS/profile188.data LOGS/profile188.data.GYRE for model 188
+save LOGS/profile189.data LOGS/profile189.data.GYRE for model 189
+save LOGS/profile190.data LOGS/profile190.data.GYRE for model 190
+save LOGS/profile191.data LOGS/profile191.data.GYRE for model 191
+save LOGS/profile192.data LOGS/profile192.data.GYRE for model 192
+save LOGS/profile193.data LOGS/profile193.data.GYRE for model 193
+save LOGS/profile194.data LOGS/profile194.data.GYRE for model 194
+save LOGS/profile195.data LOGS/profile195.data.GYRE for model 195
+save LOGS/profile196.data LOGS/profile196.data.GYRE for model 196
+save LOGS/profile197.data LOGS/profile197.data.GYRE for model 197
+save LOGS/profile198.data LOGS/profile198.data.GYRE for model 198
+ retry:  logT < hydro_mtx_min_allowed_logT          90     199
+save LOGS/profile199.data LOGS/profile199.data.GYRE for model 199
+save LOGS/profile200.data LOGS/profile200.data.GYRE for model 200
+save LOGS/profile201.data LOGS/profile201.data.GYRE for model 201
+save LOGS/profile202.data LOGS/profile202.data.GYRE for model 202
+save LOGS/profile203.data LOGS/profile203.data.GYRE for model 203
+ retry:  logT < hydro_mtx_min_allowed_logT         174     204
+save LOGS/profile204.data LOGS/profile204.data.GYRE for model 204
+save LOGS/profile205.data LOGS/profile205.data.GYRE for model 205
+ retry:  logT < hydro_mtx_min_allowed_logT         118     206
+save LOGS/profile206.data LOGS/profile206.data.GYRE for model 206
+save LOGS/profile207.data LOGS/profile207.data.GYRE for model 207
+save LOGS/profile208.data LOGS/profile208.data.GYRE for model 208
+save LOGS/profile209.data LOGS/profile209.data.GYRE for model 209
+save LOGS/profile210.data LOGS/profile210.data.GYRE for model 210
+ retry: max residual jumped -- give up in solver     211
+save LOGS/profile211.data LOGS/profile211.data.GYRE for model 211
+save LOGS/profile212.data LOGS/profile212.data.GYRE for model 212
+save LOGS/profile213.data LOGS/profile213.data.GYRE for model 213
+save LOGS/profile214.data LOGS/profile214.data.GYRE for model 214
+save LOGS/profile215.data LOGS/profile215.data.GYRE for model 215
+ retry:  adjust_correction failed in eval_equations -- give up in solver     216
+save LOGS/profile216.data LOGS/profile216.data.GYRE for model 216
+save LOGS/profile217.data LOGS/profile217.data.GYRE for model 217
+save LOGS/profile218.data LOGS/profile218.data.GYRE for model 218
+save LOGS/profile219.data LOGS/profile219.data.GYRE for model 219
+save LOGS/profile220.data LOGS/profile220.data.GYRE for model 220
+save LOGS/profile221.data LOGS/profile221.data.GYRE for model 221
+save LOGS/profile222.data LOGS/profile222.data.GYRE for model 222
+save LOGS/profile223.data LOGS/profile223.data.GYRE for model 223
+save LOGS/profile224.data LOGS/profile224.data.GYRE for model 224
+save LOGS/profile225.data LOGS/profile225.data.GYRE for model 225
+
+stop because have dropped below central lower limit for he4
+    0.9881079383E-01    0.1000000000E+00
+
+        226   8.318222   3860.933   3.529856   4.360874  10.995342   7.493059   0.000000   0.000000   0.280000  -3.159360   1534      5
+ 3.3819E+00   8.318222   2.520517   3.818890   2.387864 -99.000000   3.502283   0.098811   0.329759   0.020000   0.204003      5
+ 1.1308E+06   3.332273   4.342497   4.113189 -99.000000  -8.675551   1.623312   0.563676   0.003677   0.901189  0.000E+00    varcontrol
+
+save LOGS/profile226.data LOGS/profile226.data.GYRE for model 226
+                                         solver retries           5
+
+                                    varcontrol dt limit          33
+                                  max increase dt limit         142
+                                       Lnuc_He dt limit          16
+                                        lgTeff dt limit          15
+                                      lgT_cntr dt limit          41
+                                    lg_XH_cntr dt limit          17
+                                      XHe_cntr dt limit          61
+
+save photos/x226 for model 226
+termination code: xa_central_lower_limit
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Z_cntr   v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+        226   8.318222   3860.933   3.529856   4.360874  10.995342   7.493059   0.000000   0.000000   0.280000  -3.159360   1534      5
+ 3.3819E+00   8.318222   2.520517   3.818890   2.387864 -99.000000   3.502283   0.098811   0.329759   0.020000   0.204003      5
+ 1.1308E+06   3.332273   4.342497   4.113189 -99.000000  -8.675551   1.623312   0.563676   0.003677   0.901189  0.000E+00  max increase
+
