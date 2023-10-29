@@ -5,4 +5,7 @@ photos
 .png
 cache
 .ipynb_checkpoints
+.o
+.mod
+.smod
 
