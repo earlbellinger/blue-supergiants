@@ -1,0 +1,50 @@
+ reading user weak rate file /afs/mpa/temp/earl/mesa/mesa/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+ version_number r23.05.1
+
+
+ The terminal output contains the following information
+
+      'step' is the number of steps since the start of the run,
+      'lg_dt' is log10 timestep in years,
+      'age_yr' is the simulated years since the start run,
+      'lg_Tcntr' is log10 center temperature (K),
+      'lg_Dcntr' is log10 center density (g/cm^3),
+      'lg_Tmax' is log10 max temperature (K),
+      'Teff' is the surface temperature (K),
+      'lg_R' is log10 surface radius (Rsun),
+      'lg_L' is log10 surface luminosity (Lsun),
+      'lg_LH' is log10 total PP and CNO hydrogen burning power (Lsun),
+      'lg_L3a' is log10 total triple-alpha helium burning power (Lsun),
+      'lg_gsurf' is log10 surface gravity,
+      'lg_LNuc' is log10 nuclear power (Lsun),
+      'lg_LNeu' is log10 total neutrino power (Lsun),
+      'lg_Lphoto' is log10 total photodisintegration (Lsun),
+      'Mass' is the total stellar baryonic mass (Msun),
+      'lg_Mdot' is log10 magnitude of rate of change of mass (Msun/year),
+      'lg_Dsurf' is log10 surface density (g/cm^3),
+      'H_env' is the amount of mass where H is dominant,
+      'He_core' is the largest mass where He is dominant.
+      'CO_core' is the largest mass where CO is dominant.
+      'H_cntr' is the center H1 mass fraction,
+      'He_cntr' is the center He4 mass fraction,
+      'C_cntr' is the center C12 mass fraction,
+      'N_cntr' is the center N14 mass fraction,
+      'O_cntr' is the center O16 mass fraction,
+      'Ne_cntr' is the center Ne20 mass fraction,
+      'gam_cntr' is the center plasma interaction parameter,
+      'eta_cntr' is the center electron degeneracy parameter,
+      'zones' is the number of zones in the current model,
+      'iters' is the number of solver iterations for the current step,
+      'retry' is the number of step retries required during the run,
+      'dt_limit' is an indication of what limited the timestep.
+
+ All this and more are saved in the LOGS directory during the run.
+                             set_initial_number_retries           0
+
+                              relax_initial_composition
+ open failed           2           1
+failed to open ../../models/mc_0.35-mg_0.15-Ye_0.42-Z_0.02.model
+ do_relax_initial_composition ierr           2
+ do_star_job_controls_after ierr           2
+ do_before_evolve_loop ierr           2
+ do_before_evolve_loop ierr           2

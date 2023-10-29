@@ -1,0 +1,70 @@
+&star_job
+    !show_net_species_info = .true.
+    relax_initial_composition = .true.
+    num_steps_to_relax_composition = 100
+    relax_composition_filename = '../../models/mc_0.4-mg_0.3-Ye_0.35-Z_0.02.model'
+    timescale_for_relax_composition = -1d0
+/ ! end of star_job namelist
+
+
+&eos
+/ ! end of eos namelist
+
+
+&kap
+    use_Type2_opacities = .true.
+    Zbase = 0.02
+/ ! end of kap namelist
+
+
+&controls
+  ! starting specifications
+    initial_mass = 20
+    !initial_z = 0.02
+    
+    xa_central_lower_limit_species(1) = 'he4'
+    xa_central_lower_limit(1) = 1d-1
+    
+    use_ledoux_criterion = .true.
+    alpha_semiconvection = 1
+    
+    thermohaline_coeff = 2
+    
+    overshoot_scheme(1) = 'step' ! ``exponential``, ``step``, ``other``
+    overshoot_zone_type(1) = 'burn_H' !  ``burn_H``, ``burn_He``, ``burn_Z``, ``nonburn``, ``any``
+    overshoot_zone_loc(1) = 'core' ! ``core``, ``shell``, ``any``
+    overshoot_bdy_loc(1) = 'any'
+    overshoot_f(1) = 0.335
+    overshoot_f0(1) = 0.0335
+    
+    overshoot_scheme(2) = 'exponential'
+    overshoot_zone_type(2) = 'any'
+    overshoot_zone_loc(2) = 'any'
+    overshoot_bdy_loc(2) = 'any'
+    overshoot_f(2) = 0.001
+    overshoot_f0(2) = 0.0005
+    
+    hot_wind_scheme = 'Vink'
+    Vink_scaling_factor = 1
+    
+    energy_eqn_option = 'dedt'
+    use_gold_tolerances = .true.
+	  
+    write_profiles_flag = .false.
+    write_pulse_data_with_profile = .false.
+    add_atmosphere_to_pulse_data = .true.
+    pulse_data_format = 'GYRE'
+    history_interval = 1
+    profile_interval = 1
+	  terminal_interval = 1000
+	  photo_interval = 9999
+    
+    log_directory = 'LOGS'
+    
+    max_num_profile_models = 10000
+    delta_XHe_cntr_limit = 0.01
+    
+    delta_Pg_mode_freq = 1d-99
+
+/ ! end of controls namelist
+

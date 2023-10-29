@@ -1,0 +1,204 @@
+ reading user weak rate file /afs/mpa/temp/earl/mesa/mesa/data/rates_data/rate_tables/S13_r_be7_wk_li7.h5
+ version_number r23.05.1
+
+
+ The terminal output contains the following information
+
+      'step' is the number of steps since the start of the run,
+      'lg_dt' is log10 timestep in years,
+      'age_yr' is the simulated years since the start run,
+      'lg_Tcntr' is log10 center temperature (K),
+      'lg_Dcntr' is log10 center density (g/cm^3),
+      'lg_Tmax' is log10 max temperature (K),
+      'Teff' is the surface temperature (K),
+      'lg_R' is log10 surface radius (Rsun),
+      'lg_L' is log10 surface luminosity (Lsun),
+      'lg_LH' is log10 total PP and CNO hydrogen burning power (Lsun),
+      'lg_L3a' is log10 total triple-alpha helium burning power (Lsun),
+      'lg_gsurf' is log10 surface gravity,
+      'lg_LNuc' is log10 nuclear power (Lsun),
+      'lg_LNeu' is log10 total neutrino power (Lsun),
+      'lg_Lphoto' is log10 total photodisintegration (Lsun),
+      'Mass' is the total stellar baryonic mass (Msun),
+      'lg_Mdot' is log10 magnitude of rate of change of mass (Msun/year),
+      'lg_Dsurf' is log10 surface density (g/cm^3),
+      'H_env' is the amount of mass where H is dominant,
+      'He_core' is the largest mass where He is dominant.
+      'CO_core' is the largest mass where CO is dominant.
+      'H_cntr' is the center H1 mass fraction,
+      'He_cntr' is the center He4 mass fraction,
+      'C_cntr' is the center C12 mass fraction,
+      'N_cntr' is the center N14 mass fraction,
+      'O_cntr' is the center O16 mass fraction,
+      'Ne_cntr' is the center Ne20 mass fraction,
+      'gam_cntr' is the center plasma interaction parameter,
+      'eta_cntr' is the center electron degeneracy parameter,
+      'zones' is the number of zones in the current model,
+      'iters' is the number of solver iterations for the current step,
+      'retry' is the number of step retries required during the run,
+      'dt_limit' is an indication of what limited the timestep.
+
+ All this and more are saved in the LOGS directory during the run.
+                             set_initial_number_retries           0
+
+                              relax_initial_composition
+ relax_composition: num_steps_to_use         100
+                       avg remaining difference, lambda    2.1841099590522557D-02    0.0000000000000000D+00
+                       avg remaining difference, lambda    1.8252093373218588D-02    1.0101010101010102D-02
+                       avg remaining difference, lambda    1.4256939947306200D-02    2.0202020202020204D-02
+                       avg remaining difference, lambda    1.3233872490707437D-02    3.0303030303030304D-02
+                       avg remaining difference, lambda    1.2749069019384758D-02    4.0404040404040407D-02
+                       avg remaining difference, lambda    1.2225267456770656D-02    5.0505050505050504D-02
+                       avg remaining difference, lambda    1.2279951236317520D-02    6.0606060606060608D-02
+                       avg remaining difference, lambda    1.1606159662618737D-02    7.0707070707070704D-02
+                       avg remaining difference, lambda    1.0761661164529333D-02    8.0808080808080815D-02
+                       avg remaining difference, lambda    9.8211993331606129D-03    9.0909090909090912D-02
+                       avg remaining difference, lambda    9.0549486263743553D-03    1.0101010101010101D-01
+                       avg remaining difference, lambda    8.5758646167163159D-03    1.1111111111111110D-01
+                       avg remaining difference, lambda    7.6614147775031245D-03    1.2121212121212122D-01
+                       avg remaining difference, lambda    6.7273005879999381D-03    1.3131313131313133D-01
+                       avg remaining difference, lambda    6.4535672943225580D-03    1.4141414141414141D-01
+                       avg remaining difference, lambda    6.4490621292215815D-03    1.5151515151515152D-01
+                       avg remaining difference, lambda    5.6629417938383530D-03    1.6161616161616163D-01
+                       avg remaining difference, lambda    4.8630643532096953D-03    1.7171717171717171D-01
+                       avg remaining difference, lambda    3.9951049741974764D-03    1.8181818181818182D-01
+                       avg remaining difference, lambda    3.2870005485547442D-03    1.9191919191919191D-01
+                       avg remaining difference, lambda    2.6281289045470713D-03    2.0202020202020202D-01
+                       avg remaining difference, lambda    2.0728579282918119D-03    2.1212121212121213D-01
+                       avg remaining difference, lambda    1.6181657956583924D-03    2.2222222222222221D-01
+                       avg remaining difference, lambda    1.2364214394059872D-03    2.3232323232323232D-01
+                       avg remaining difference, lambda    9.3856080860112926D-04    2.4242424242424243D-01
+                       avg remaining difference, lambda    7.0554114353222567D-04    2.5252525252525254D-01
+                       avg remaining difference, lambda    5.2610574649092942D-04    2.6262626262626265D-01
+                       avg remaining difference, lambda    3.8337260100801597D-04    2.7272727272727271D-01
+                       avg remaining difference, lambda    2.7573709121905891D-04    2.8282828282828282D-01
+                       avg remaining difference, lambda    1.9496562005387881D-04    2.9292929292929293D-01
+                       avg remaining difference, lambda    1.3588512912846089D-04    3.0303030303030304D-01
+                       avg remaining difference, lambda    9.3335240209447656D-05    3.1313131313131315D-01
+                       avg remaining difference, lambda    6.3166273677102883D-05    3.2323232323232326D-01
+                       avg remaining difference, lambda    4.2110849118076045D-05    3.3333333333333331D-01
+                       avg remaining difference, lambda    2.7648537299739870D-05    3.4343434343434343D-01
+                       avg remaining difference, lambda    1.7873801890741204D-05    3.5353535353535354D-01
+                       avg remaining difference, lambda    1.1374237566834457D-05    3.6363636363636365D-01
+                       avg remaining difference, lambda    7.1232598903477630D-06    3.7373737373737376D-01
+                       avg remaining difference, lambda    4.3890793263729526D-06    3.8383838383838381D-01
+                       avg remaining difference, lambda    2.6600480765919166D-06    3.9393939393939392D-01
+                       avg remaining difference, lambda    1.5852811769651756D-06    4.0404040404040403D-01
+                       avg remaining difference, lambda    9.2875058851878091D-07    4.1414141414141414D-01
+                       avg remaining difference, lambda    5.3473518733096097D-07    4.2424242424242425D-01
+                       avg remaining difference, lambda    3.0247646960288591D-07    4.3434343434343436D-01
+                       avg remaining difference, lambda    1.6804248311356011D-07    4.4444444444444442D-01
+                       avg remaining difference, lambda    9.1659536245953419D-08    4.5454545454545453D-01
+                       avg remaining difference, lambda    4.9070256777639433D-08    4.6464646464646464D-01
+                       avg remaining difference, lambda    2.5774276295358581D-08    4.7474747474747475D-01
+                       avg remaining difference, lambda    1.3277657478896768D-08    4.8484848484848486D-01
+                       avg remaining difference, lambda    6.7058876161872624D-09    4.9494949494949497D-01
+                       avg remaining difference, lambda    3.3190756870980363D-09    5.0505050505050508D-01
+                       avg remaining difference, lambda    1.6092488164414269D-09    5.1515151515151514D-01
+                       avg remaining difference, lambda    7.6398681117803095D-10    5.2525252525252530D-01
+                       avg remaining difference, lambda    3.5498377007445669D-10    5.3535353535353536D-01
+                       avg remaining difference, lambda    1.6135625861305043D-10    5.4545454545454541D-01
+                       avg remaining difference, lambda    7.1713891932332995D-11    5.5555555555555558D-01
+                       avg remaining difference, lambda    3.1148459001146905D-11    5.6565656565656564D-01
+                       avg remaining difference, lambda    1.3214496105410142D-11    5.7575757575757580D-01
+                       avg remaining difference, lambda    5.4726683749077490D-12    5.8585858585858586D-01
+                       avg remaining difference, lambda    2.2111787656894557D-12    5.9595959595959591D-01
+                       avg remaining difference, lambda    8.7107482351937235D-13    6.0606060606060608D-01
+                       avg remaining difference, lambda    3.3435278116059358D-13    6.1616161616161613D-01
+                       avg remaining difference, lambda    1.2496429521920192D-13    6.2626262626262630D-01
+                       avg remaining difference, lambda    4.5443049972710203D-14    6.3636363636363635D-01
+                       avg remaining difference, lambda    1.6068444786703728D-14    6.4646464646464652D-01
+                       avg remaining difference, lambda    5.5167415584546533D-15    6.5656565656565657D-01
+                       avg remaining difference, lambda    1.8369135443965086D-15    6.6666666666666663D-01
+                       avg remaining difference, lambda    5.9318985178878560D-16    6.7676767676767680D-01
+                       avg remaining difference, lambda    1.8731112426397626D-16    6.8686868686868685D-01
+                       avg remaining difference, lambda    5.5766639501190350D-17    6.9696969696969702D-01
+                       avg remaining difference, lambda    1.5159927977924557D-17    7.0707070707070707D-01
+                       avg remaining difference, lambda    3.1191435928603788D-18    7.1717171717171713D-01
+                       avg remaining difference, lambda    1.2352370392673664D-18    7.2727272727272729D-01
+                       avg remaining difference, lambda    1.1804273238336500D-17    7.3737373737373735D-01
+                       avg remaining difference, lambda    1.3361241098327165D-17    7.4747474747474751D-01
+                       avg remaining difference, lambda    1.9589983789737173D-18    7.5757575757575757D-01
+                       avg remaining difference, lambda    3.8873372073978584D-19    7.6767676767676762D-01
+                       avg remaining difference, lambda    6.1144741943081792D-19    7.7777777777777779D-01
+                       avg remaining difference, lambda    2.8192271472445961D-19    7.8787878787878785D-01
+                       avg remaining difference, lambda    1.8529570952278587D-18    7.9797979797979801D-01
+                       avg remaining difference, lambda    1.6137113751608335D-19    8.0808080808080807D-01
+                       avg remaining difference, lambda    2.2787997470362932D-19    8.1818181818181823D-01
+                       avg remaining difference, lambda    1.4616951007708329D-19    8.2828282828282829D-01
+                       avg remaining difference, lambda    1.8268501948484456D-18    8.3838383838383834D-01
+                       avg remaining difference, lambda    1.9740032305130542D-19    8.4848484848484851D-01
+                       avg remaining difference, lambda    1.8545773924307892D-19    8.5858585858585856D-01
+                       avg remaining difference, lambda    1.8763903615502584D-19    8.6868686868686873D-01
+                       avg remaining difference, lambda    2.8742234907045271D-19    8.7878787878787878D-01
+                       avg remaining difference, lambda    1.7554720352518048D-18    8.8888888888888884D-01
+                       avg remaining difference, lambda    9.5751369499664020D-20    8.9898989898989901D-01
+                       avg remaining difference, lambda    1.0320559258507634D-19    9.0909090909090906D-01
+                       avg remaining difference, lambda    1.1338818625093964D-17    9.1919191919191923D-01
+                       avg remaining difference, lambda    1.7261981768144718D-18    9.2929292929292928D-01
+                       avg remaining difference, lambda    4.0940758658045613D-20    9.3939393939393945D-01
+                       avg remaining difference, lambda    1.5997012603651276D-19    9.4949494949494950D-01
+                       avg remaining difference, lambda    5.4590732082382616D-20    9.5959595959595956D-01
+                       avg remaining difference, lambda    2.6694030949826895D-19    9.6969696969696972D-01
+                       avg remaining difference, lambda    1.3646641927985950D-20    9.7979797979797978D-01
+                       avg remaining difference, lambda    0.0000000000000000D+00    9.8989898989898994D-01
+                       avg remaining difference, lambda    0.0000000000000000D+00    1.0000000000000000D+00
+
+ finished doing relax composition
+
+ net name basic.net
+ kap_option gs98
+ kap_CO_option gs98_co
+ kap_lowT_option lowT_fa05_gs98
+                                        OMP_NUM_THREADS           8
+
+
+ retry:  adjust_correction failed in eval_equations -- give up in solver     233
+ retry: max residual jumped -- give up in solver     238
+                      residual_norm > tol_residual_norm         238    3.7757167056382359D-04    9.9999999999999995D-07
+                        max_residual > tol_max_residual         238    1.3594406133326103D-01    1.0000000000000000D-04
+            correction_norm > tol_correction_norm*coeff         238    8.8896838968547808D-04    3.0000000000000004D-07    1.0000000000000000D-02
+          max_abs_correction > tol_max_correction*coeff         238    4.8361338743084278D-02    3.0000000000000001D-05    1.0000000000000000D-02
+ retry: avg+max corr+resid -- give up in solver     238
+                      residual_norm > tol_residual_norm         238    2.1229381110139493D-04    9.9999999999999995D-07
+                        max_residual > tol_max_residual         238    8.9684962137488874D-02    1.0000000000000000D-04
+            correction_norm > tol_correction_norm*coeff         238    4.3055630899817738D-04    3.0000000000000004D-07    1.0000000000000000D-02
+          max_abs_correction > tol_max_correction*coeff         238    2.5098074743427297D-02    3.0000000000000001D-05    1.0000000000000000D-02
+ retry: avg+max corr+resid -- give up in solver     238
+
+stop because have dropped below central lower limit for he4
+    0.9677047583E-01    0.1000000000E+00
+
+        431   8.343675   3642.567   3.696845   4.759262  14.566738   9.396500   0.000000   0.000000   0.280000  -3.574033   1706      4
+ 3.8079E+00   8.343675   2.779711   4.192848   2.571909 -99.000000   5.170238   0.096770   0.356848   0.020000   0.178095      5
+ 5.5133E+06   3.194122   4.759745   4.566798 -99.000000  -8.795276   2.959060   0.522259   0.020044   0.903230  0.000E+00       XO_cntr
+
+                                         solver retries           4
+
+                                    varcontrol dt limit          28
+                                  max increase dt limit         198
+                                  max decrease dt limit           2
+                                        solver dt limit           1
+                                          dX/X dt limit          49
+                                       Lnuc_He dt limit          43
+                                        lgTeff dt limit          56
+                                    lgRho_cntr dt limit           1
+                                      lgT_cntr dt limit           4
+                                    lg_XH_cntr dt limit          74
+                                       XH_cntr dt limit           6
+                                      XHe_cntr dt limit          54
+                                       XO_cntr dt limit          14
+
+save photos/x431 for model 431
+termination code: xa_central_lower_limit
+__________________________________________________________________________________________________________________________________________________
+
+       step    lg_Tmax     Teff     lg_LH      lg_Lnuc     Mass       H_rich     H_cntr     N_cntr     Y_surf   eta_cntr   zones  retry
+  lg_dt_yrs    lg_Tcntr    lg_R     lg_L3a     lg_Lneu     lg_Mdot    He_core    He_cntr    O_cntr     Z_surf   gam_cntr   iters  
+    age_yrs    lg_Dcntr    lg_L     lg_LZ      lg_Lphoto   lg_Dsurf   CO_core    C_cntr     Ne_cntr    Z_cntr   v_div_cs       dt_limit
+__________________________________________________________________________________________________________________________________________________
+
+        431   8.343675   3642.567   3.696845   4.759262  14.566738   9.396500   0.000000   0.000000   0.280000  -3.574033   1706      4
+ 3.8079E+00   8.343675   2.779711   4.192848   2.571909 -99.000000   5.170238   0.096770   0.356848   0.020000   0.178095      5
+ 5.5133E+06   3.194122   4.759745   4.566798 -99.000000  -8.795276   2.959060   0.522259   0.020044   0.903230  0.000E+00       XO_cntr
+
